@@ -197,7 +197,6 @@ int main() {
                         listarDisciplinas(disciplinas, qtdDisc, professores, qtdProf);
                         break;
                     case 4:
-                        
                         printf("Digite o sexo (M/F): ");
                         scanf(" %c", &sexo);
                         sexo = toupper(sexo);

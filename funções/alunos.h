@@ -15,7 +15,6 @@ typedef struct{
     Data data_nascimento;
 } Aluno;
 
-// Protótipos das funções
 void adicionarAluno(Aluno alunos[], int *qtdAlunos, int *id_aluno);
 void listarAlunos(Aluno alunos[], int qtdAlunos);
 void atualizarAluno(Aluno alunos[], int qtdAlunos, int matricula);

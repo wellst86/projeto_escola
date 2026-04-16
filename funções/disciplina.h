@@ -16,11 +16,8 @@ typedef struct {
     int qtdAlunos;
 } Disciplina;
 
-// Protótipos das funções
 void adicionarDisciplina(Disciplina disciplinas[], int *qtdDisc, int *id_disciplina, Professor professores[], int qtdProf);
-
 void atualizarDisciplina(Disciplina disciplinas[], int qtdDisc, int codigo);
-
 void listarDisciplinas(Disciplina disciplinas[], int qtdDisc,  Professor professores[], int qtdProf);
 
 int buscarDisciplinaPorCodigo(Disciplina disciplinas[], int qtdDisc, int codigo);

@@ -14,7 +14,6 @@ typedef struct{
     Data data_nascimento;
 } Professor;
 
-// Protótipos das funções
 void adicionarProfessor(Professor professores[], int *qtdProf, int *id_professor);
 void listarProfessores(Professor professores[], int qtdProf);
 void listarProfessoresPorSexo(Professor professores[], int qtdProf, char sexo);

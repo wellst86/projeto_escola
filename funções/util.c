@@ -19,14 +19,14 @@ int validarCPF(const char *cpf) {
 
     for (int i = 0; cpf[i] != '\0'; i++) {
         if (isdigit((unsigned char)cpf[i])) {
-            contador++;  // Conta apenas os dígitos
+            contador++;  
         } 
         else if (cpf[i] != '.' && cpf[i] != '-') {
-            return 0;    // Caractere inválido
+            return 0;    
         }
     }
 
-    // Verifica se há exatamente 11 dígitos
+    
     return (contador == 11);
 }
 
